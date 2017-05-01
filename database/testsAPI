@@ -1,0 +1,12 @@
+ ####### #######  #####  #######       #    ######  ###
+    #    #       #     #    #         # #   #     #  #
+    #    #       #          #        #   #  #     #  #
+    #    #####    #####     #       #     # ######   #
+    #    #             #    #       ####### #        #
+    #    #       #     #    #       #     # #        #
+    #    #######  #####     #       #     # #       ###
+
+https://data.explore.star.fr/api/v2/catalog/datasets/tco-bus-circulation-passages-tr/records?q=nomarret%3D%22R%C3%A9publique%22%20OR%20nomarret%3D%22Beaulieu%20Restau%20U%22&rows=-1&sort=nomcourtligne%2Cdepart&fields=nomcourtligne%2Csens%2Cdestination%2Cidarret%2Cnomarret%2Cdeparttheorique&pretty=true&timezone=Europe%2FParis
+
+
+https://data.explore.star.fr/api/v2/catalog/datasets/tco-bus-circulation-passages-tr/records?q=nomarret%3D%22R%C3%A9publique%22%20OR%20nomarret%3D%22Beaulieu%20Restau%20U%22&rows=-1&sort=nomcourtligne%2Cdepart&fields=nomcourtligne%2Csens%2Cdestination%2Cidarret%2Cnomarret%2Cdeparttheorique%2Cidcourse&pretty=true&timezone=Europe%2FParis

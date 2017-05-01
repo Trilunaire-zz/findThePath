@@ -12,7 +12,7 @@ CREATE TABLE _trajets(
 	id SERIAL PRIMARY KEY,
 	depart TEXT NOT NULL,
 	arrivee TEXT NOT NULL,
-	CONSTRAINT _uniqTraj 
+	CONSTRAINT _uniqTraj
 	UNIQUE (depart,arrivee)
 );
 
@@ -33,9 +33,9 @@ INSERT INTO _users(username, password, mail) VALUES('khalid','khaleidoscope','zk
 INSERT INTO _users(username, password, mail) VALUES('tristan','tristemitoufle','tristan@gmail.com');
 
 -- DATATESTTRAJET
-INSERT INTO _trajets(depart,arrivee) VALUES('Rpublique','Beaulieu Restau U');
-INSERT INTO _trajets(depart,arrivee) VALUES('Beaulieu Restau U','Rpublique');
-INSERT INTO _trajets(depart,arrivee) VALUES('Rpublique','Donzelot');
-INSERT INTO _trajets(depart,arrivee) VALUES('Donzelot','Rpublique');
-INSERT INTO _trajets(depart,arrivee) VALUES('Le Blizz','Rpublique');
-INSERT INTO _trajets(depart,arrivee) VALUES('Rpublique','Le Blizz');
+INSERT INTO _trajets(depart,arrivee) VALUES('République','Beaulieu Restau U');
+INSERT INTO _trajets(depart,arrivee) VALUES('Beaulieu Restau U','République');
+INSERT INTO _trajets(depart,arrivee) VALUES('République','Donzelot');
+INSERT INTO _trajets(depart,arrivee) VALUES('Donzelot','République');
+INSERT INTO _trajets(depart,arrivee) VALUES('Le Blizz','République');
+INSERT INTO _trajets(depart,arrivee) VALUES('République','Le Blizz');

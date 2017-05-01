@@ -1,0 +1,4 @@
+Web site build with CodeIgniter
+Use bootstrap for the css
+Use star api for bus data
+Picture by Himesh Kumar Behera: https://unsplash.com/@theseeker
